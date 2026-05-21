@@ -1,19 +1,7 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-image: url(IMG_0334.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background-image: url(bg.png);
     color: white;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 .header {
@@ -32,12 +20,6 @@ body {
     color: white;
     text-decoration: none;
     text-shadow: 0 0 8px #00ffff;
-}
-
-.content {
-    padding: 32px;
-    background-color: rgba(0, 0, 0, 0.5);
-    flex: 1;
 }
 
 .footer {
