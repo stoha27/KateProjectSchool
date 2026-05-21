@@ -1,12 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(IMG_0334.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
-    margin: 0;
+    background-position: center top;
     color: white;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
@@ -29,7 +36,8 @@ body {
 
 .content {
     padding: 32px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
+    flex: 1;
 }
 
 .footer {
