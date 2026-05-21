@@ -1,5 +1,7 @@
 body {
-    background-image: url(bg.png);
+    background-image: url(IMG_0334.png);
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
